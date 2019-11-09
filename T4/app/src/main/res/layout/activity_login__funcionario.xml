@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Funcionario">
+
+    <TextView
+        android:id="@+id/label_funcionario"
+        android:layout_width="278dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="70dp"
+        android:text=" Funcionario"
+        android:textSize="@android:dimen/app_icon_size"
+        app:layout_constraintBottom_toTopOf="@+id/iconefuncionario"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iconefuncionario"
+        android:layout_width="211dp"
+        android:layout_height="186dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/nome_funcioario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars[2]" />
+
+    <EditText
+        android:id="@+id/nome_funcioario"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Digite o nome do funcionario"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/senha_funcioario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/senha_funcioario"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Digite o nome do funcionario"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/login_funcionario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/login_funcionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
