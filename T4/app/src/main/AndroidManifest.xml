@@ -12,7 +12,7 @@
         <activity android:name=".Devolucao"></activity>
         <activity android:name=".Servico_usuario" />
         <activity android:name=".Login_Funcionario" />
-        <activity android:name=".Login_usuario" />
+        <activity android:name=".Login_Usuario" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

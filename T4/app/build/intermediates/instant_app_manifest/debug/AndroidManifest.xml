@@ -21,7 +21,7 @@
         <activity android:name="com.example.t4.Devolucao" />
         <activity android:name="com.example.t4.Servico_usuario" />
         <activity android:name="com.example.t4.Login_Funcionario" />
-        <activity android:name="com.example.t4.Login_usuario" />
+        <activity android:name="com.example.t4.Login_Usuario" />
         <activity android:name="com.example.t4.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
